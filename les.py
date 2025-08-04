@@ -6,7 +6,7 @@ from aiogram.filters import Command
 from random import *
 
 
-TOKEN = "8247580437:AAFPjOJkqCzDAAH6XE80BPaM8T7UIqCBcVU"
+TOKEN = ""
 channel_name = "@"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -3595,4 +3595,5 @@ async def main():
 
 print('The bot is running...')
 asyncio.run(main())
+
 
